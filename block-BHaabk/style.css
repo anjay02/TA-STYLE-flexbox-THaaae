@@ -1,0 +1,134 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*custom style*/
+*::before, ::after{
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+    font-size: 16px;
+}
+/*container*/
+.container{
+   display: flex;
+   max-width: 1200px;
+   margin: 0 auto;
+   padding:0 32px;
+}
+/*clearfix*/
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after{
+    clear: both;
+}
+/*header*/
+.header{
+    background-color:#5385c1 ;
+    color: #fff;
+    height: 72px;
+    line-height: 72px;
+}
+.brand{
+    color: #ffffff;
+    font-size: 32px;
+}
+.nav{
+    
+    margin-left: 65%;
+}
+.nav a{
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 32px;
+}
+/*article*/
+.article{
+    display: flex;
+}
+.col h2{
+    font-size: 32px;
+    padding-top: 32px;
+}
+.col p{
+    font-size: 16px;
+    padding-right: 20%;
+}
+.col1{
+    padding-top: 42px;
+}
+/*gallery*/
+.gallery img{
+    width: 400px;
+    height: 300px;
+}
+.row{
+  margin: 20px 210px;   
+}  
+
+.row1{
+    margin: 20px 210px;  
+}
+/*footer*/
+.footer{
+    background-color:#5385c1 ;
+    color: #fff;
+    height: 72px;
+    line-height: 72px;
+    margin-top: 32px;
+}
+.nav{
+    display: flex
+}
+.nav a{
+    text-decoration: none;
+    text-align: center;
+}
