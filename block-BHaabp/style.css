@@ -1,0 +1,149 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*custom style*/
+*::before, ::after{
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+    font-size: 16px;
+}
+/*container*/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5%;
+    display: flex;
+}
+/*header*/
+.header{
+    background:linear-gradient(to right, rgb(80,76,118), rgb(119,63,120));
+}
+.brand{
+    font-size: 32px;
+    color: #fff;
+}
+.nav{
+    margin-top: 15px;
+    margin-left: 55%;
+}
+.nav a{
+    padding-left: 20px;
+    font-size: 21px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: green;
+}
+/*hero*/
+.hero{
+    background:linear-gradient(to  right, rgb(80,76,118), rgb(119,63,120));
+}
+.hero-heading{
+    font-size: 48px;
+    color: #fff;
+}
+.hr{
+    display: inline-block;
+    color: #6e567e;
+}
+.hero-text{
+    margin-left: 40px;
+    color: #a994b3;
+    font-size: 20px;  
+}
+.hero-btn{
+    font-size: 20px;
+    color: #fff;
+    background-color: #5ebd8b;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.hero1{
+    width: 400px;
+}
+.hero1-heading{
+    font-size:32px;
+    color: #666666;
+}
+.hero1-text{
+    font-size: 20px;
+    color:#9b9b9b;
+    margin-top: 20px;
+}
+.hero1-btn{
+    color: #666666;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px; 
+}
+.hr1{
+    margin-left: 60px;
+}
+.item p{
+    padding: 8px;
+    font-size: 20px;
+    margin-right: 400px;
+    justify-content: space-between;
+}
+
+span{
+    padding: 20px;
+    color: #5ebd8b;
+}
+.hero2{
+
+}
+.hero2-heading{
+    font-size: 20px;
+}
+.hero2-text{
+    font-size: 12px;
+
+}
